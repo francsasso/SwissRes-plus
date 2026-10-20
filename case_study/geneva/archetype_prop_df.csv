@@ -1,0 +1,5 @@
+buildingtype,Occ_m2p,Qs_Wp,X_ghp,Ea_Wm2,El_Wm2,ventilation_rate_m3_night,ventilation_rate_m3_day
+SFH,50.0,70.0,80.0,6.0,2.7,15.0,29.0
+MFH,30.0,70.0,80.0,6.0,2.7,15.0,29.0
+Administration,14.0,80.0,80.0,7.0,10.0,0.0,36.0
+School,10.0,70.0,80.0,4.0,7.0,0.0,29.0
