@@ -1,12 +1,13 @@
 # Geneva case study
 
-This case study illustrates the SwissRes+ calculation method using
-building archetypes and hourly weather data for the canton of Geneva,
-Switzerland.
+This case study provides a cantonal subset of SwissRes+ input data
+for Geneva, Switzerland. It illustrates the structure, format and
+parameters required by the model, covering residential and
+non-residential building archetypes and hourly weather data.
 
-It provides a cantonal subset of the model inputs to accompany the
-[calculation modules](../../code/) and their
-[model guide](../../code/MODEL_GUIDE.md).
+The files complement the [calculation modules](../../code/) and
+[model guide](../../code/MODEL_GUIDE.md). No case-specific execution
+script is included.
 
 ## Building archetypes
 
@@ -59,10 +60,10 @@ solar calculation uses fixed UTC+1.
 
 ## Scope
 
-This case study demonstrates the calculation workflow for the supplied
-Geneva archetypes. It does not reproduce the full national analysis
-or all climate, retrofit and technology-adoption scenarios presented
-in the associated publication.
+The Geneva dataset documents the types of input data required by
+SwissRes+. It is not intended as a standalone simulation example
+or as a reproduction of the national analysis and scenarios
+presented in the associated publication.
 
 Complete research results will be deposited on Yareta, the University
 of Geneva research data repository. A link will be added once available.
