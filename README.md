@@ -51,12 +51,23 @@ Building stock and energy certificate data
 
 ## Repository Contents
 
-This repository currently provides:
+This repository provides:
 
-- Model outputs used in published research.
-- Selected input datasets.
+- Selected SwissRes+ calculation modules in [`code/`](code/), covering
+  archetype inputs, hourly boundary conditions, envelope properties
+  and thermal simulation.
+- A [Geneva case study](case_study/geneva/) with input data for
+  residential and non-residential building archetypes.
+- A [model guide](code/MODEL_GUIDE.md) explaining the modules,
+  calculation workflow, physical quantities and conventions.
 
-The simulation code is not currently included in the repository. Future releases may provide additional model components depending on data licensing and project developments.
+The case study illustrates the calculation method using a cantonal
+subset of the model inputs. The underlying RegBL and CECB records
+and the full national input dataset are not included.
+
+Results associated with the publication will be made available through
+Yareta, the University of Geneva research data repository. A link to the
+dataset will be added here once available.
 
 ## Associated Publication
 
