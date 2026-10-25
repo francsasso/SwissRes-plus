@@ -36,11 +36,18 @@ Optional postprocessing converts useful thermal demand into heat-pump electricit
 
 ## Geneva case study
 
-The [Geneva case study](../case_study/geneva/) illustrates the workflow using 109 residential and non-residential archetypes and hourly weather data for 2020.
+The [Geneva case study](../case_study/geneva/) provides input tables
+for 109 residential and non-residential archetypes and hourly weather
+data for 2020.
 
-It provides a cantonal example of the calculation method. It does not reproduce the full national analysis or all climate, retrofit and technology-adoption scenarios considered in the publication.
+Its purpose is to illustrate the structure, format and parameters
+required by SwissRes+. No case-specific execution script is included,
+and the dataset does not cover the full national analysis or all
+research scenarios.
 
-For input descriptions and sources, see [Input data](input_data.md). For module responsibilities, function calls, units and output conventions, see the [model guide](../code/MODEL_GUIDE.md).
+For input descriptions and sources, see [Input data](input_data.md).
+For module responsibilities, function calls, units and output
+conventions, see the [model guide](../code/MODEL_GUIDE.md).
 
 ## References
 
