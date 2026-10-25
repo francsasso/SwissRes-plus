@@ -16,7 +16,6 @@ For the calculation sequence and output conventions, see the [model guide](../co
 | Building-use parameters, including internal loads and use schedules | SIA 2024:2021 [2] |
 | Archetype characterisation, shading factors, thermal bridges and temperature corrections | Sasso and Patel (2026) [1] and the previous studies cited therein |
 
-Building-use parameters are based on SIA 2024. Their application in SwissRes+ also involves model-specific rules, including seasonal heating and cooling operation, heating ramps and supply-air temperature assumptions. These control rules are distinguished from the source parameters in the code documentation.
 
 ## Files and table relationships
 
@@ -152,7 +151,6 @@ Monthly factors directly scale occupancy only, not the appliance or lighting pro
 
 ## 4. Shading, thermal bridges and temperature corrections
 
-These parameters follow the archetype characterisation and modelling assumptions described in Sasso and Patel (2026) [1] and the previous studies cited therein.
 
 ### `shading_df.csv`
 
@@ -198,7 +196,6 @@ These rules are model assumptions, not a general prescription of SIA 2024.
 
 ### `weather_GE_2020.csv`
 
-Hourly weather data for 2020 were obtained from MeteoSwiss for the Genève-Cointrin station.
 
 | Column | Meaning | Unit or format |
 |---|---|---|
