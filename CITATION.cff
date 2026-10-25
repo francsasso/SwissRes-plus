@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use SwissRes+ in your research, please cite the associated article below."
+title: "SwissRes+"
+authors:
+  - family-names: "Sasso"
+    given-names: "Francesco"
+repository-code: "https://github.com/francsasso/SwissRes-plus"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Sasso"
+      given-names: "Francesco"
+    - family-names: "Patel"
+      given-names: "Martin K."
+  title: "The effect of climate change, building retrofit and cooling system adoption on future thermal energy demand in the Swiss building stock."
+  journal: "Energy and Buildings"
+  year: 2026
+  volume: "363"
+  article-number: "117544"
+  doi: "10.1016/j.enbuild.2026.117544"
