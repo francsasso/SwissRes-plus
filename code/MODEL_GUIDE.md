@@ -124,7 +124,7 @@ is the representative reference area. Annual sums use the integer hourly loads.
 Electricity and final-energy calculations are explicit follow-up calls:
 
 ```python
-from simulation_numba import (
+from thermal_simulation import (
     add_electric_heating_cooling_demand,
     add_final_energy_to_annual_results,
 )
