@@ -69,6 +69,17 @@ Results associated with the publication will be made available through
 Yareta, the University of Geneva research data repository. A link to the
 dataset will be added here once available.
 
+## Documentation
+
+- [Methodology](docs/methodology.md): overview of the modelling
+  approach, calculation stages and scientific references.
+- [Input data](docs/input_data.md): description of the CSV tables,
+  variables, units, relationships and data sources.
+- [Model guide](code/MODEL_GUIDE.md): module responsibilities,
+  function calls, physical conventions and output definitions.
+- [Geneva input dataset](case_study/geneva/): a cantonal subset
+  illustrating the structure and parameters required by SwissRes+.
+
 ## Associated Publication
 
 Sasso, F., & Patel, M. K. (2026).
