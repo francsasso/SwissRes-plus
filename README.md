@@ -61,8 +61,8 @@ This repository provides:
 - A [model guide](code/MODEL_GUIDE.md) explaining the modules,
   calculation workflow, physical quantities and conventions.
 
-The case study illustrates the calculation method using a cantonal
-subset of the model inputs. The underlying RegBL and CECB records
+The Geneva dataset illustrates the structure, format and parameters
+required by the model. The underlying RegBL and CECB records
 and the full national input dataset are not included.
 
 Results associated with the publication will be made available through
