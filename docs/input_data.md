@@ -218,7 +218,11 @@ December is copied internally to provide a 744-hour warmup preceding the reporte
 
 ## Scope of the supplied inputs
 
-The Geneva tables illustrate the calculation method for a cantonal subset. They do not contain the full national input dataset, the original energy-certificate records or all future climate and building-stock scenarios used in the research.
+The Geneva tables illustrate the structure and content of the model
+inputs through a cantonal subset. They do not constitute a standalone
+simulation example and do not include the full national input dataset,
+the original energy-certificate records or all future climate and
+building-stock scenarios used in the research.
 
 Optional final-energy postprocessing requires additional heating-system share and efficiency tables (`distribution_df` and `efficiency_df`), which are not part of these ten case-study input files.
 
