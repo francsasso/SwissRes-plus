@@ -109,9 +109,15 @@ University of Geneva
 ## License
 
 
-The publication associated with SwissRes+ is distributed under the
-Creative Commons Attribution 4.0 International (CC BY 4.0) License.
+## License
 
-Unless otherwise stated, the documentation and datasets contained in this
-repository are made available under the same license.
+The Python source code in `code/` is distributed under the
+[MIT License](LICENSE).
+
+The associated publication, repository documentation and input datasets
+are distributed under the
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+When reusing these materials, provide appropriate attribution,
+link to the license and indicate any modifications.
 
