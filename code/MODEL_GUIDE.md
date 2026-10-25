@@ -12,7 +12,7 @@ with separate zone-air, surface, ventilation and ground-contact balances.
 | `constants.py` | Define element order, surface properties and solar reference coefficients |
 | `hourly_inputs.py` | Prepare weather, irradiance, use profiles, controls, internal gains and ventilation |
 | `envelope.py` | Build node layouts, conductances, capacities and ground boundary conditions |
-| `simulation_numba.py` | Solve hourly heat balances and calculate thermal demand and downstream energy use |
+| `thermal_simulation.py` | Solve hourly heat balances and calculate thermal demand and downstream energy use |
 
 The modules use NumPy, pandas and Numba. Non-residential optimal-start processing
 uses pandas 2.x APIs. Keep the Python files in the same directory and import them
@@ -23,7 +23,7 @@ from the research script or notebook.
 ```python
 from archetype_inputs import archetype_table_from_df
 from hourly_inputs import validate_hourly_inputs
-from simulation_numba import temperature_and_energy_needs_calculation_numba
+from thermal_simulation.py import temperature_and_energy_needs_calculation_numba
 
 building = archetype_table_from_df(
     b_type, n_row,
