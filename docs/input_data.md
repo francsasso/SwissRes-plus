@@ -115,8 +115,6 @@ The specific occupant gain is calculated as `Qs_Wp / Occ_m2p`. Hourly occupancy,
 
 `X_ghp`, `ventilation_rate_m3_night` and `ventilation_rate_m3_day` are retained from the input tables but are not read by the selected builder. In this implementation, ventilation rates are defined by the archetype class rather than those CSV columns.
 
-Building-use parameters are based on SIA 2024:2021 [2].
-
 ### `schedule.csv`
 
 Each building category has 48 rows: 24 hours for `weekday` and 24 for `weekend`.
