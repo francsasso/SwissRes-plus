@@ -23,7 +23,7 @@ from the research script or notebook.
 ```python
 from archetype_inputs import archetype_table_from_df
 from hourly_inputs import validate_hourly_inputs
-from thermal_simulation.py import temperature_and_energy_needs_calculation_numba
+from thermal_simulation import temperature_and_energy_needs_calculation_numba
 
 building = archetype_table_from_df(
     b_type, n_row,
